@@ -3,9 +3,20 @@
   <head>
     <title>PitHub</title>
     <link rel="stylesheet" type="text/css" href="Global.css">
+    <script>
+      function Click() {
+        var x = "Pit"
+        for(i = 0; i < 10; i++) {
+          x=x+x
+        }
+        document.getElementById('gay').innerHTML = x;
+      }
+    </script>
   </head>
   <body>
     <h1 style="font-size:3em;">Pit<font style="background-color:orange; color:black;">Hub</font><font style="font-size:30px; position: relative; top: -15px"><sup>&copy;</sup></font></h1>
+    <button onclick="Click()">Click Pls</button>
+    <p id="gay"></p>
     <p>Documentary of the best rapper in the world!</p>
     <img src="pit.png" width=300>
     <p>There are some theories that he is also</p>
